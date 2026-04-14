@@ -87,7 +87,7 @@ The dataset contains more than 700,000 job postings from 160 countries worldwide
 
 The dataset includes 10 different data‑related job titles. In this project, I focus on the three most common roles: Data Analyst, Data Engineer, and Data Scientist. Some positions also appear with a “Senior” prefix. I assume that listings without this prefix are more likely mid‑level roles, so the required skills may not fully reflect expectations for entry‑level candidates.
 
-![Job Titles](images\roles_to_explore.png)
+![Job Titles](images/roles_to_explore.png)
 
 *I also performed a small analysis focused on Poland, since I currently live here and was personally interested in the local data. If you're interested, feel free to follow this [link](1_EDA_Intro.ipynb#Data_Analysis_for_Data_Analyst_in_Poland)* 
 
@@ -98,7 +98,7 @@ From the three most popular roles identified above, I selected the top five skil
 
 View my notebook with detailed steps here: [2_Skills_Count](2_Skills_Count.ipynb).
 
-![Demand of skills](images\demand_skill.png)
+![Demand of skills](images/demand_skill.png)
 
 ### Insights:
 - Data Analysts most often need SQL (44%), followed by Python (30%) and Excel/BI tools.
@@ -111,7 +111,7 @@ To identify trends, I created a new column representing the month in which each 
 
 View my notebook with detailed steps here: [3_Skills_Trend](3_Skills_Trend.ipynb).
 
-![Trends](images\trend.png)
+![Trends](images/trend.png)
 
 ### Insights:
  - SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
@@ -126,8 +126,8 @@ View my notebook with detailed steps here: [3_Skills_Trend](3_Skills_Trend.ipynb
 
  To identify the highest‑paid roles, I used a boxplot. I selected the six most common job titles and filtered the data by salary levels. The resulting distribution can be seen in the chart below
 
- ![Salary Levels](images\salary_distributions.png)
-
+ ![Salary Levels](images/salary_distributions.png)
+/
  ### Insights:
  - Salary ranges vary widely across job titles. Senior Data Scientist roles show the highest earning potential, reaching up to $500K/year. 
  - Data Scientist and  Data Engineer positions also have many high‑end outliers, indicating that exceptional expertise can lead to significantly higher pay. In contrast, Data Analyst salaries are more consistent with fewer extreme values. 
@@ -138,7 +138,7 @@ View my notebook with detailed steps here: [3_Skills_Trend](3_Skills_Trend.ipynb
 Next, I focused the analysis on identifying the highest‑paying skills based on median salary, as well as determining which of the most common skills have the highest median values.
 As a result, I created the following two charts.
 
-![Salary Skills](images\salary_skills.png)
+![Salary Skills](images/salary_skills.png)
 
 - The top chart shows that specialized technical skills like dplyr, Bitbucket, and Gitlab are linked to higher salaries, in some cases reaching $200K.
 - The bottom chart highlights that foundational skills such as Excel, PowerPoint, and SQL are the most in‑demand, even if they don’t offer the highest pay.
@@ -152,7 +152,7 @@ To avoid overcrowding the chart with too many data points, I decided to filter o
 
 View my notebook with detailed steps here: [5_Optimal_Skills](5_Optimal_Skills.ipynb).
 
-![Most Optimal](images\most_optimal.png)
+![Most Optimal](images/most_optimal.png)
 
 #### Insights:
 - The skill Azue and Aws appears to have the highest median salary of nearly $100K, despite being less common in job postings. This suggests a high value placed on specialized database skills within the data analyst profession.
@@ -164,7 +164,7 @@ View my notebook with detailed steps here: [5_Optimal_Skills](5_Optimal_Skills.i
 Let’s go one step deeper and group the skills by technology categories, which will help us understand which groups provide the most value.
 
 
-![Technology](images\technology.png)
+![Technology](images/technology.png)
 
 #### Insights:
 - Programming skills (Python, SQL, R) sit in the sweet spot — they offer both high demand and strong salaries, making them the core value drivers for data analysts. 
